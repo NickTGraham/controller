@@ -1,6 +1,11 @@
 The Kiibohd Controller
 ======================
 
+Quick Note
+----------
+- run the docker container with `docker run -it --rm -v "$(pwd):/controller" controller`
+- layout files are in `kll/layouts/whitefox`
+
 This is the main Kiibohd Firmware.
 In general, this should be the **only** git repo you need to clone.
 The [KLL](https://github.com/kiibohd/kll) git repo is automatically cloned during the build process.
